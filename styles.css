@@ -1,0 +1,35 @@
+/* Utah Ski Resorts — Stylesheet extracted from inline <style> */
+:root{--bg:#0f1724;--card:#0b1220;--accent:#1fb6ff;--muted:#9aa4b2;--glass:rgba(255,255,255,0.04)}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:linear-gradient(180deg,#071028 0%, #071827 60%); color:#e6eef6;}
+header{padding:28px 24px; display:flex; align-items:center; justify-content:space-between; gap:12px}
+.brand
+{display:flex;gap:14px;align-items:center}
+.logo
+{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7afcff);display:flex;align-items:center;justify-content:center;color:#06202b;font-weight:700;font-size:18px}
+h1{
+    margin:0;font-size:20px}
+p.lead{margin:4px 0 0;color:var(--muted);font-size:14px}
+main{padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.card{background:linear-gradient(180deg,var(--card), rgba(8,18,30,0.6));border-radius:12px;padding:14px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 6px 18px rgba(3,8,15,0.6)}
+.media{height:160px;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#082033, #06202b);margin-bottom:12px}
+.media svg{width:100%;height:100%;object-fit:cover}
+h2{
+    margin:0 0 6px;font-size:18px}
+.meta{display:flex;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:13px;margin-bottom:8px}
+.desc{color:#d7e7f6;font-size:14px;margin-bottom:10px;line-height:1.45}
+.amenities{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.amenity{background:var(--glass);padding:6px 10px;border-radius:999px;font-size:13px;color:var(--muted);border:1px solid rgba(255,255,255,0.02)}
+.actions{display:flex;gap:10px}
+.btn{padding:8px 12px;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.06);cursor:pointer;color:#e6eef6;font-weight:600}
+.btn.primary{background:linear-gradient(90deg,var(--accent),#6ef0ff);color:#03202a;border:none}
+footer{padding:20px 24px;color:var(--muted);font-size:13px}
+@media (min-width:900px){ h1{font-size:22px} }
+
+.video-container {
+  transform: translateX(-50px);
+  width: 50%;
+  margin: 0 auto;/* left */
+}
+
